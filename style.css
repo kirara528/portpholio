@@ -37,7 +37,7 @@ header {
   background-color: rgba(0, 0, 0, .6);
   padding: 20px;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
 }
 
 .card {
@@ -70,43 +70,57 @@ header {
   color: #666;
 }
 
-/*.card {
-  width: 300px;
-  margin: 30px;
-  background-color: #fff;
+.sns {
+  height: 100px;
+  padding: 50px 0 30px 30px;
+  background-color: rgba(0, 0, 0, .8);
+  color: #fff;
 }
 
-.card-img {
-  width: 300px;
-  height: 200px;
+.sns span {
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
 }
 
-.card-title {
-  font-size: 16px;
-  margin: 10px;
-  color: #444; 
-}
-
-.card-text {
-  padding: 10px;
-  color: #666;
-}
-
-.card-box {
+.font-awesome {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
+}
+.sns a {
+  position: relative;
+  display: block;
+  float: left;
+  width: 100px;
+  margin: 0 15px;
+  padding-left: 40px;
+  background-color: #c6bb80;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  color: #fff; 
 }
 
-.continue {
-  font-size: 80%;
-  margin: 10px;
-  padding: 5px;
-  border-radius: 5px;
-  color: #08f;
-  background-color: transparent;
-}*/
 
 
+.sns i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  background: #bcaf68;
+  line-height: 40px;
+  text-align: center; 
+}
+
+.sns i:before { 
+  padding: 0; line-height: 40px;
+}
+.sns a:hover i {
+  background: #b2a251;
+}
 
 footer {
   font-size: 16px;
