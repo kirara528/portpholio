@@ -1,0 +1,44 @@
+body {
+  background-image: url(img/top.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 64px;
+  color: #fff;
+  margin: 200px 0 30px 0;
+  background-color: rgba(0, 0, 0, .5);
+  width: 100vw;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.title i {
+  margin-left: 10px;
+}
+
+
+.menu {
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.menu a:last-child {
+  margin-right: 0;
+}
+
